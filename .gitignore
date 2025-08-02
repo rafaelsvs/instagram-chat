@@ -1,0 +1,42 @@
+# Arquivos de ambiente
+.env
+.env.*
+
+# Arquivo de estado do Playwright ou login
+*state*.json
+*.state.json
+*.login.json
+
+# Ambientes virtuais
+venv/
+env/
+.venv/
+.envrc
+
+# __pycache__ e arquivos compilados
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos do editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Pasta de build/dist
+build/
+dist/
+*.egg-info/
+
+# Banco de dados local (ex: SQLite, dumps, etc)
+*.db
